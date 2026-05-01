@@ -35,6 +35,7 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     //레이아웃
     implementation("nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:3.0.0")
+    implementation 'org.modelmapper:modelmapper:3.1.1'
 }
 
 tasks.named('test') {
